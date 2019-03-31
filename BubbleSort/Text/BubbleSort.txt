@@ -1,0 +1,5 @@
+Bubble sort has complexity o(n^2)
+Bubble sort is table algorithm(which mean two equal objects after sorting will have same relative position with each other before sort)
+Bubble sort works with the logic of swapping element to its next element if the element is greater than the next element. 
+At end of each iteration element from behind will be in sorted fashion
+In place algorithm

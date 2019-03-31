@@ -1,0 +1,6 @@
+Has complexity same O(n^2)
+Here we start sorting the array from the left.
+We consider the array from the left initially withone lement is sorted
+We then take the first element(next element) of the unsorted array and then comapare it with values of sorted array from right.
+If the elements of sorted array is bigger you move the elemnt to its next index.
+If the index reaches 0 or if we have a situation where next element of unsorted array is greater than one element of sorted array we insert new Element next to it

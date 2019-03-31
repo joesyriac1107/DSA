@@ -1,0 +1,5 @@
+Selection sort will also have same complexity O(n^2)
+It has unstable algorithm 
+We again here  achieve the same scenario as bubble sort, for each iteration number of elements from the backside of the array gets sorted
+its a lil better than bubble sort as we calculate hte highest number for each iteration and then only replace with last elemnt of unsorted array
+In place algorithm
