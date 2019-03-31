@@ -13,13 +13,12 @@ public class SelectionSort {
 				if(intArray[index]>intArray[maxIndex])
 					maxIndex=index;
 			}
-			System.out.println("maxIndex: "+maxIndex+" value: "+intArray[maxIndex]);
-			System.out.println("lastSortedIndex: "+lastSortedIndex+" value: "+intArray[lastSortedIndex]);
 			BubbleSort.swap(maxIndex, lastSortedIndex, intArray);
 			
 		}
 		for(int i = 0;i<intArray.length;i++) {
 			System.out.println(intArray[i]);
+
 		}
 
 	}
