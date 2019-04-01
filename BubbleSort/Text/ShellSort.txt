@@ -1,0 +1,10 @@
+Its an improvement of insertion sort
+insertion sort had gap interval of 1 for each iteration
+shell sort will have larger gap interval, reducing the interval for every iteration
+there are many ways of choosing the gap interval
+most commonly used is the knuth sequence{(3^k-1)/2}
+gap shouldnt be larger than the array size
+we choose k such that (3^k-1)/2 is less than array length
+
+we will use array.length/2 as intial gap and then divide gap by 2 in text iteration and so on 
+Unstable algorithm
