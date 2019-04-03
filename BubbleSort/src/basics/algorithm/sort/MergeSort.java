@@ -36,21 +36,21 @@ public class MergeSort {
 			tempArray[tempIndex++] = intArray[i]<=intArray[j] ? intArray[i++] : intArray[j++];
 		}
 		
-		if(i==mid) {
-			while(j<stop) {
-				tempArray[tempIndex++]=intArray[j++];
-			}
-		} else {
+//		if(i==mid) {
+//			while(j<stop) {
+//				tempArray[tempIndex++]=intArray[j++];
+//			}
+//		} else {
 			while(i<mid) {
 				tempArray[tempIndex++]=intArray[i++];
 			}
-		}
+		
 		
 		
 		i=start;
 		tempIndex=0;
 		
-		while(i<stop) {
+		while(i<j) {
 			intArray[i++]=tempArray[tempIndex++];
 		}
 	}
