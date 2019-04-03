@@ -1,0 +1,6 @@
+Divide and conquer: Recursive algorithm
+find a pivot and then all elements less than pivot put in left and all elements greater in right
+inplace algorithm
+Unstable algorithm
+
+n^2 worst time case, nlogn avg time complexity
