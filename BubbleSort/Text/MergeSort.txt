@@ -1,0 +1,18 @@
+Divide and conquer algorithm
+recursive algorithm'
+two parts split and merge
+
+Splitting phase
+divide arrays into two arrays
+and then divide the tow smaller arrays into four smaller arrays
+divide untill we have one element
+
+Merging phase
+we take two one element array to merge two element sorted array
+and two sorted array will merge to four element sorted array
+ we merge left and right sibling arrays
+ we create temporary enough large to holdall elements in arrays merging
+ 
+ Not inplace alogrithm
+ Complexity Nlogn
+ stable algorithm
