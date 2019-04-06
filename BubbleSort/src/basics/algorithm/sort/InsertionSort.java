@@ -11,10 +11,11 @@ public class InsertionSort {
 			
 			int newElement = intArray[firstUnsortedIndex];
 			
-			int i;
+			int i=firstUnsortedIndex;
 			
-			for(i=firstUnsortedIndex; i>0 && intArray[i-1]>newElement;i--) {
+			while (i>0 && intArray[i-1]>newElement) {
 				intArray[i]=intArray[i-1];
+				i--;
 				
 			}
 			
@@ -24,5 +25,8 @@ public class InsertionSort {
 		BubbleSort.printArray(intArray);
 		
 	}
+	
+	
+
 
 }

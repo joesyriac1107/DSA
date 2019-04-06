@@ -27,6 +27,12 @@ public class BubbleSort {
 		
 	}
 	
+	public static void printArrayString(String[] stringArray) {
+		for(int i = 0;i<stringArray.length;i++) {
+			System.out.println(stringArray[i]);
+		}
+		
+	}
 	public static void swap(int index1, int index2,int[] intArray) {
 		
 		int c;
