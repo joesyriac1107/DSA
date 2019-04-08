@@ -23,7 +23,10 @@ public class MainApplication {
 		
 		
 		employeeLinkedList.printList();
-
+		System.out.println("list size :"+employeeLinkedList.getSize());
+		employeeLinkedList.removeFromFront();
+		employeeLinkedList.printList();
+		System.out.println("list size :"+employeeLinkedList.getSize());
 
 	}
 }
