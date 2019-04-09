@@ -4,6 +4,7 @@ public class EmployeeNode {
 	
 	private Employee employee;
 	private EmployeeNode next;
+	private EmployeeNode previous;
 	
 	public EmployeeNode(Employee employee) {
 		super();
@@ -26,36 +27,15 @@ public class EmployeeNode {
 		this.next = next;
 	}
 
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((employee == null) ? 0 : employee.hashCode());
-		result = prime * result + ((next == null) ? 0 : next.hashCode());
-		return result;
+	public EmployeeNode getPrevious() {
+		return previous;
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		EmployeeNode other = (EmployeeNode) obj;
-		if (employee == null) {
-			if (other.employee != null)
-				return false;
-		} else if (!employee.equals(other.employee))
-			return false;
-		if (next == null) {
-			if (other.next != null)
-				return false;
-		} else if (!next.equals(other.next))
-			return false;
-		return true;
+	public void setPrevious(EmployeeNode previous) {
+		this.previous = previous;
 	}
+	
+	
 
 	@Override
 	public String toString() {

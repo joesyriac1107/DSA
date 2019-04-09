@@ -14,19 +14,28 @@ public class MainApplication {
 		Employee marySmith = new Employee("Mary", "Smith", 22);
 		Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
 		
-		EmployeeLinkedList employeeLinkedList = new EmployeeLinkedList();
+		EmployeeDoblyLinkedList list = new EmployeeDoblyLinkedList();
 		
-		employeeLinkedList.addToFront(janeJones);
-		employeeLinkedList.addToFront(doeJohn);
-		employeeLinkedList.addToFront(marySmith);
-		employeeLinkedList.addToFront(mikeWilson);
+//		list.addToFront(janeJones);
+//		list.addToFront(doeJohn);
+//		list.addToFront(marySmith);
+//		list.addToFront(mikeWilson);
+//		
+//		list.printList();
+//		System.out.println(list.getSize());
 		
+		list.addToEnd(janeJones);
+		list.addToEnd(doeJohn);
+		list.addToEnd(marySmith);
+		list.addToEnd(mikeWilson);
 		
-		employeeLinkedList.printList();
-		System.out.println("list size :"+employeeLinkedList.getSize());
-		employeeLinkedList.removeFromFront();
-		employeeLinkedList.printList();
-		System.out.println("list size :"+employeeLinkedList.getSize());
-
+		list.printList();
+		System.out.println(list.getSize());
+		list.removeFromFront();
+		list.printList();
+		System.out.println(list.getSize());
+		list.removeFromEnd();
+		list.printList();
+		System.out.println(list.getSize());
 	}
 }
