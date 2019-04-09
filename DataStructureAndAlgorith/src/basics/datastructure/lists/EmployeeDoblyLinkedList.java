@@ -8,11 +8,12 @@ public class EmployeeDoblyLinkedList {
 	
 	public void addToFront(Employee employee) {
 		EmployeeNode node = new EmployeeNode(employee);
-		node.setNext(head);
+		
 		if(head == null)
 			tail = node;
 		else {
 			head.setPrevious(node);
+			node.setNext(head);
 		}
 		
 		head = node;
