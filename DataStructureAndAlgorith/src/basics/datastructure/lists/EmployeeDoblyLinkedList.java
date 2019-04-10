@@ -47,7 +47,7 @@ public class EmployeeDoblyLinkedList {
 		removedNode.setNext(null);
 		return removedNode;
 	}
-	
+	 
 	public EmployeeNode removeFromEnd() {
 		if(isEmpty())
 			return null;
@@ -62,6 +62,24 @@ public class EmployeeDoblyLinkedList {
 		size--;
 		removedNode.setNext(null);
 		return removedNode;
+	}
+	
+	public boolean addBefore(Employee newEmployee, Employee oldEmployee) {
+		if(isEmpty())
+			return false;
+		EmployeeNode current = head;
+		while(current != null && !current.getEmployee().equals(oldEmployee)) {
+			current=current.getNext();
+		}
+		if(current == null)
+			return false;
+		EmployeeNode newNode = new EmployeeNode(newEmployee);
+		current.getPrevious().setNext(newNode);
+		newNode.setPrevious(current.getPrevious());
+		newNode.setNext(current);
+		current.setPrevious(newNode);
+		size++;
+		return true;
 	}
 	
 	public void printList() {

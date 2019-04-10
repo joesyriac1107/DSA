@@ -24,14 +24,20 @@ public class MainApplication {
 		list.printList();
 		System.out.println(list.getSize());
 		
-		list.addToEnd(joeSyriac);
 		list.printList();
 		System.out.println(list.getSize());
+		
 		list.removeFromFront();
 		list.printList();
 		System.out.println(list.getSize());
+		
 		list.removeFromEnd();
 		list.printList();
 		System.out.println(list.getSize());
+		
+	boolean check=	list.addBefore(mikeWilson, janeJones);
+		list.printList();
+		System.out.println(list.getSize());
+		System.out.println(check);
 	}
 }
