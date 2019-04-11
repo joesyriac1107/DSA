@@ -1,0 +1,11 @@
+Stack
+Abstract Data type
+LIFO-Last in First Out
+push-adds item as top item of stack
+pop-removes top itemof the stack
+peek-gets the top item of stack without removing it
+ideal backing data structure is linked list
+
+if stacks is backed by linked, then pop peep and push will be constant time complexity O(1)
+
+if its backed by array time complexity is O(n)
