@@ -1,0 +1,6 @@
+Abstract tyoe
+
+FIFO first on forst out
+add also called enqueue -> add item to queue
+remove also called dequeue -> remove items at the front
+peek -> look at end of the queue
