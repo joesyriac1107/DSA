@@ -1,0 +1,7 @@
+Chaining
+
+We use array to back hashtable and then each element of the array has linked list
+
+SO we will store elements with collision in the linked list
+if we have a good hashing function
+then we wont have a very long liked list and hence retrival will be in constant time approximately
