@@ -1,0 +1,15 @@
+HashTables:
+
+ABstract data type
+provide acess to data using keys
+consist of key value pairs
+optimised for retrieval
+Associative array is one type of hash table
+
+Hashing
+Maps keys to any data type to an integer
+Hash functions maps keys to int
+collision occurs when more than one value has same hash value
+
+Load factor
+how full hash table is
