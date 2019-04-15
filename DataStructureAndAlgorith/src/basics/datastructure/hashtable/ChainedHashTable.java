@@ -43,7 +43,7 @@ public class ChainedHashTable {
 		while(iterator.hasNext()) {
 			employee=iterator.next();
 			if(employee.getKey().equals(key)) {
-				hashTable[hashkey].remove(index);
+				return hashTable[hashkey].remove(index).getEmployee();
 			}
 			index++;
 
