@@ -1,0 +1,7 @@
+Binary Search:
+
+Data must be sorted
+Choose element in middle and compare against the compare value
+if element is equal to value, we're done
+if element greater then search value is on left half
+if element is less than search value then it is on roght half
