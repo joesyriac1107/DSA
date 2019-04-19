@@ -1,0 +1,7 @@
+Heaps
+
+Must be complete binary tree
+must satisfy heap property
+
+Maxheap:every parent is greater than or equal to its children
+mi Heap: every parent is less than or equal to children
