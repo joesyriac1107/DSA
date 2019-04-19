@@ -1,0 +1,12 @@
+Binary Tree
+Every Node as 0,1 or 2 children
+
+Children referred as left and right child
+
+Complete binary tree
+Full binary tree -> except leaf nodes all the nodes have two children
+
+BST
+perform insertion,deletion, retrievals in O(log n) time
+left child has smaller value than its parent
+right child has greater value than parent

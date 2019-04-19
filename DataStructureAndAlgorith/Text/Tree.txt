@@ -1,0 +1,25 @@
+Trees:
+
+Hierarichal datstructure
+every item in tree is node
+Each node can have multiple children but only one parent
+RootNode has no parent or first node or top node
+only one root node per tree
+A leaf node has no children
+singelton tree has only one node
+
+cannot have cyclic paths
+height -> the longest path or edges from node to leaf 
+depth -> number of edges from node to a root node
+edge -> parent to child connection or path
+
+all nodes with same depth belong to same level and number of edges of the depth is level number.
+
+So all nodes with depth two will have two edges and is at level 2
+
+
+Traversal
+Level- visit nodes on each level
+Pre order-visit the root of every subtree first
+Post order-visit the root of every subtree last
+In order- visit the left, root and then right child
