@@ -7,7 +7,7 @@ public class FirstNonRepeatingChar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution sol = new Solution();
+		Solution1 sol = new Solution1();
 		System.out.println(sol.lengthOfLongestSubstring("abcabcdbb"));
 		
 	}
@@ -16,7 +16,7 @@ public class FirstNonRepeatingChar {
 }
 
 
-class Solution {
+class Solution1 {
     public int lengthOfLongestSubstring(String s) {
         int start=0;
         int end;
